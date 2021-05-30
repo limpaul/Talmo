@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="이름"/>
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="나이"/>
+
+       <EditText
+           android:id="@+id/ageEditText"
+           android:layout_marginTop="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:inputType="numberDecimal"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/q1"
+           android:textSize="18sp"
+           android:textColor="@color/black" />
+
+
+        <RadioGroup
+            android:id="@+id/rdgrp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <RadioButton
+                android:id="@+id/g1y1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="그렇다"/>
+            <RadioButton
+                android:id="@+id/g1n1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아니다"/>
+        </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/q2"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+        <RadioGroup
+            android:id="@+id/rdgrp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <RadioButton
+                android:id="@+id/g2y2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="그렇다"/>
+            <RadioButton
+                android:id="@+id/g2n2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아니다"/>
+        </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/q3"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+        <RadioGroup
+            android:id="@+id/rdgrp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <RadioButton
+                android:id="@+id/g3y3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="그렇다"/>
+            <RadioButton
+                android:id="@+id/g3n3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아니다"/>
+        </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/q4"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+        <RadioGroup
+            android:id="@+id/rdgrp4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <RadioButton
+                android:id="@+id/g4y4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="그렇다"/>
+            <RadioButton
+                android:id="@+id/g4n4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아니다"/>
+        </RadioGroup>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/q5"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+        <RadioGroup
+            android:id="@+id/rdgrp5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <RadioButton
+                android:id="@+id/g5y5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="그렇다"/>
+            <RadioButton
+                android:id="@+id/g5n5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아니다"/>
+        </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/q6"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+        <RadioGroup
+            android:id="@+id/rdgrp6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <RadioButton
+                android:id="@+id/g6y6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="그렇다"/>
+            <RadioButton
+                android:id="@+id/g6n6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아니다"/>
+        </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/q7"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+        <RadioGroup
+            android:id="@+id/rdgrp7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/g7y7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="그렇다"/>
+            <RadioButton
+                android:id="@+id/g7n7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아니다"/>
+        </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/q8"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+        <RadioGroup
+            android:id="@+id/rdgrp8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <RadioButton
+                android:id="@+id/g8y8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="그렇다"/>
+            <RadioButton
+                android:id="@+id/g8n8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아니다"/>
+        </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/q9"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+
+        <RadioGroup
+            android:id="@+id/rdgrp9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <RadioButton
+                android:id="@+id/g9y9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="그렇다"/>
+            <RadioButton
+                android:id="@+id/g9n9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아니다"/>
+        </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/q10"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+        <RadioGroup
+            android:id="@+id/rdgrp10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <RadioButton
+                android:id="@+id/g10y10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="그렇다"/>
+            <RadioButton
+                android:id="@+id/g10n10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아니다"/>
+        </RadioGroup>
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="검사하기"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
